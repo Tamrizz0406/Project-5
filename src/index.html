@@ -8,32 +8,122 @@
 </head>
 <body>
 
-    <nav class="bg-[#A95094] p-6">
-        <div class="flex gap-15 max-w-300 m-auto">
-            <div class="flex items-center gap-3">
-              <img src="./geo.png" alt="">
-              <p class="text-white">Москва</p>
-           </div>
-          <div class="flex items-cente gap-6">
-            <p class="text-white">Диагностика</p>
-             <p class="text-white">Стоимость</p>
-             <p class="text-white">Мастера</p>
-             <p class="text-white">Отзывы</p>
-             <p class="text-white">Вопросы</p>
+    <div class="container mx-auto px-4 py-12 max-w-6xl m-auto">
+        <h1 class="text-3xl lg:text-4xl font-bold text-center mb-10">Стоимость работ</h1>
+        <section>
+          <div class="block lg:hidden space-y-6 ">
+            <div class="bg-white rounded-lg shadow-md p-6">
+              <h3 class="text-xl font-semibold mb-4">Выезд мастера</h3>
+              <p class="text-lg"><span class="text-gray-600">Стоимость работ:</span> <span class="text-pink-600 font-bold">Бесплатно</span></p>
+            </div>
+    
+            <div class="bg-white rounded-lg shadow-md p-6">
+              <h3 class="text-xl font-semibold mb-4">Диагностика стиральной машины</h3>
+              <p class="text-lg"><span class="text-gray-600">Стоимость работ:</span> <span class="text-pink-600 font-bold">Бесплатно</span></p>
+            </div>
+    
+            <div class="bg-white rounded-lg shadow-md p-6">
+              <h3 class="text-xl font-semibold mb-4">Замена блока питания</h3>
+              <p class="text-lg"><span class="text-gray-600">Стоимость работ:</span> <span class="font-bold">900 ₽</span></p>
+              <p class="text-lg"><span class="text-gray-600">Стоимость запчасти:</span> от 750 ₽</p>
+            </div>
+    
+            <div class="bg-white rounded-lg shadow-md p-6">
+              <h3 class="text-xl font-semibold mb-4">Замена помпы</h3>
+              <p class="text-lg"><span class="text-gray-600">Стоимость работ:</span> <span class="font-bold">1900 ₽</span></p>
+              <p class="text-lg"><span class="text-gray-600">Стоимость запчасти:</span> от 8880 ₽</p>
+            </div>
+    
+            <div class="bg-white rounded-lg shadow-md p-6">
+              <h3 class="text-xl font-semibold mb-4">Замена подшипников</h3>
+              <p class="text-lg"><span class="text-gray-600">Стоимость работ:</span> <span class="font-bold">750 ₽</span></p>
+              <p class="text-lg"><span class="text-gray-600">Стоимость запчасти:</span> от 1450 ₽</p>
+            </div>
+    
+            <div class="text-center mt-8">
+              <button class="text-pink-600 font-medium hover:underline">Показать все цены →</button>
+            </div>
           </div>
-        </div>
-        <div class="flex items-center justify-between mt-10 max-w-300 m-auto">
-            <img src="./лого.png" alt="">
-            <button class="border border-[#FFC464] text-[#FFC464] px-7 py-3 rounded-xl">Позвонить</button>
-        </div>
-
-       <div class="lg:flex lg:flex-row-reverse justify-center max-w-300 m-auto">
-        <div>
-            <div class="flex flex-col items-start gap-8 mt-10">
-                <h1 class="text-white text-4xl font-bold lg:text-5xl">Ремонт стиральных <br> машин на дому c годовой гарантией</h1>
-                <p class="text-white"> <b class="text-[#FFC464]">Отремонтируем на дому</b> или бесплатно завезем <br> и доставим обратно из сервисного центра</p>
-                <button class="text-white px-7 py-3 rounded-xl bg-black hidden lg:flex">Заказать звонок</button>
+    
+         
+          <div class="hidden lg:grid lg:grid-cols-3 lg:gap-8">
+           
+            <div class="lg:col-span-2 bg-white rounded-lg shadow-md overflow-hidden ">
+              <table class="w-full hidden lg:block">
+                <thead class="bg-gray-100">
+                  <tr>
+                    <th class="text-left px-6 py-4 text-lg font-semibold">Услуга</th>
+                    <th class="text-center px-6 py-4 text-lg font-semibold">Стоимость запчасти</th>
+                    <th class="text-center px-6 py-4 text-lg font-semibold">Стоимость работ</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="border-b">
+                    <td class="px-6 py-5">Выезд мастера</td>
+                    <td class="px-6 py-5 text-center">-</td>
+                    <td class="px-6 py-5 text-center text-pink-600 font-bold">Бесплатно</td>
+                  </tr>
+                  <tr class="border-b">
+                    <td class="px-6 py-5">Диагностика стиральной машины</td>
+                    <td class="px-6 py-5 text-center">-</td>
+                    <td class="px-6 py-5 text-center text-pink-600 font-bold">Бесплатно</td>
+                  </tr>
+                  <tr class="border-b">
+                    <td class="px-6 py-5">Замена блока питания</td>
+                    <td class="px-6 py-5 text-center">от 750 ₽</td>
+                    <td class="px-6 py-5 text-center font-bold">900 ₽</td>
+                  </tr>
+                  <tr class="border-b">
+                    <td class="px-6 py-5">Замена помпы</td>
+                    <td class="px-6 py-5 text-center">от 8880 ₽</td>
+                    <td class="px-6 py-5 text-center font-bold">1900 ₽</td>
+                  </tr>
+                  <tr>
+                    <td class="px-6 py-5">Замена подшипников</td>
+                    <td class="px-6 py-5 text-center">от 1450 ₽</td>
+                    <td class="px-6 py-5 text-center font-bold">750 ₽</td>
+                  </tr>
+                </tbody>
+              </table>
+    
+              <div class="px-6 py-4 text-center bg-gray-50">
+                <button class="text-pink-600 font-medium hover:underline">Показать все цены →</button>
+              </div>
+            </div>
+    
         
+            <div class="space-y-6 lg:hidden">
+              <div class="bg-white rounded-lg shadow-md p-6">
+                <h3 class="text-xl font-semibold mb-4">Выезд мастера</h3>
+                <p class="text-lg"><span class="text-gray-600">Стоимость работ:</span> <span class="text-pink-600 font-bold">Бесплатно</span></p>
+              </div>
+    
+              <div class="bg-white rounded-lg shadow-md p-6">
+                <h3 class="text-xl font-semibold mb-4">Диагностика стиральной машины</h3>
+                <p class="text-lg"><span class="text-gray-600">Стоимость работ:</span> <span class="text-pink-600 font-bold">Бесплатно</span></p>
+              </div>
+    
+              <div class="bg-white rounded-lg shadow-md p-6">
+                <h3 class="text-xl font-semibold mb-4">Замена блока питания</h3>
+                <p class="text-lg"><span class="text-gray-600">Стоимость работ:</span> <span class="font-bold">900 ₽</span></p>
+                <p class="text-lg"><span class="text-gray-600">Стоимость запчасти:</span> от 750 ₽</p>
+              </div>
+    
+              <div class="bg-white rounded-lg shadow-md p-6">
+                <h3 class="text-xl font-semibold mb-4">Замена помпы</h3>
+                <p class="text-lg"><span class="text-gray-600">Стоимость работ:</span> <span class="font-bold">1900 ₽</span></p>
+                <p class="text-lg"><span class="text-gray-600">Стоимость запчасти:</span> от 8880 ₽</p>
+              </div>
+    
+              <div class="bg-white rounded-lg shadow-md p-6">
+                <h3 class="text-xl font-semibold mb-4">Замена подшипников</h3>
+                <p class="text-lg"><span class="text-gray-600">Стоимость работ:</span> <span class="font-bold">750 ₽</span></p>
+                <p class="text-lg"><span class="text-gray-600">Стоимость запчасти:</span> от 1450 ₽</p>
+              </div>
+    
+              <div class="text-center mt-6">
+                <button class="text-pink-600 font-medium hover:underline">Показать все цены →</button>
+              </div>
             </div>
         </div>
 
